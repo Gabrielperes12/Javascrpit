@@ -14,14 +14,29 @@
     </style>
 </head>
 <body>
-    <h1>Iniciando estudos DOM</h1> 
+    <h1 id="title">Iniciando estudos DOM</h1> 
     <p>Aqui vai o resultado</p>
-    <p>Aprendendo a usar p <strong>DOM</strong> em Javascript.  </p>
+    <p>Aprendendo a usar  <strong>DOM</strong> em Javascript.  </p>
     <div>Clique em mim</div>
+    <p class="hot">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt repudiandae, illo quam sapiente id tenetur rerum itaque ullam labore ab architecto quisquam ipsum nisi magnam, ea facere voluptatum, odio impedit?</p>
     <script>
-      var p1 = window.document.getElementsByClassName('p')[0]
-      window.document.write(p1.innerText)
-    </script>
+        var corpo = window.document.body
+        var p1 = window.document.getElementById('title')
+        p1.style.background = 'green'
+        p1.style.color = 'red'
+        p1.style.borderRadius = '5px'
+        p1.style.textAlign = 'center'
+        p1.style.padding = '50px'
+        p1.innerText ='Javascript'
+        
+         var c = window.document.querySelector('p.hot')
+         c.style.color ='red'
+         c.style.background = 'white'
+         c.style.padding ='50px'
+
+         
+</script>
+
        
 </body>
 </html>
