@@ -17,7 +17,7 @@ h1{
 }
 section {
     padding: 15px;
-    width: 400px;
+    width: 450px;
     border-radius: 8px;
     margin: auto;
     background-color: white;
@@ -41,8 +41,15 @@ a:hover {
     text-decoration: underline;
     
 }
+div{
+    text-align: center;
+    padding: 8px;
+}
 #imagem {
-    height: 150px;
+    height: 200px;
     width: 300px;
-    border-radius: 40%;
+    border-radius: 50%;
+    padding: 15px;
+    object-fit: cover;
+    
 }
