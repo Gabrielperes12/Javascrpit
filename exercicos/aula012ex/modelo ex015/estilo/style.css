@@ -53,3 +53,16 @@ div{
     object-fit: cover;
     
 }
+#se{
+    text-align: left;
+}
+#res{
+    text-align: left;
+}
+.ver{
+    padding: 5px;
+    margin-top: 15px;
+}
+.sex{
+    margin-top: 15px;
+}
