@@ -11,9 +11,9 @@ if(num.value.length == 0){
 else{
     var n = Number(num.value);
     var c = 1
-
+    tab.innerHTML =''
 while(c <= 10){
-   var option = document.createElement(option)
+   var option = document.createElement('option')
    option.text = `${c} X ${n} = ${c*n}`
    tab.appendChild(option)
    c++
