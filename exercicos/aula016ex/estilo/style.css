@@ -54,7 +54,11 @@ div{
     
 }
 #se{
-    text-align: left;
+    text-align:left;
+}
+select{
+    width: 200px;
+    margin-top: 10px;
 }
 #res{
     text-align: left;
